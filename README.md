@@ -18,6 +18,18 @@ Buatlah sebuah fungsi dalam Python yang dapat menghitung total biaya pengiriman 
 
 # Input Program 
 ```python
+def cetak_info():
+    nama = "Vivit Nurul Hidayah"
+    kelas = "TI.24.A1"
+    nim = "312410110"
+    mata_kuliah = "Logika Informatika"
+    
+    print(f"Nama: {nama}")
+    print(f"Kelas: {kelas}")
+    print(f"NIM: {nim}")
+    print(f"Mata Kuliah: {mata_kuliah}")
+    print("="*40)  # Tambahkan garis pemisah agar lebih rapi
+
 def hitung_biaya_pengiriman(berat, jarak, jenis_pengiriman, status_member):
     # Biaya dasar
     biaya_total = 10000
@@ -77,6 +89,12 @@ except ValueError:
 
 # Output Program 
 ```
+Nama: Vivit Nurul Hidayah
+Kelas: TI.24.A1
+NIM: 312410110
+Mata Kuliah: Logika Informatika
+========================================
+
 Masukkan berat paket (kg): 10
 Masukkan jarak pengiriman (km): 100
 Masukkan jenis pengiriman (biasa/express): express
@@ -92,6 +110,11 @@ Diskon Member (10%)          -4300.0
 Total Biaya Pengiriman      38700.00
 PS C:\Users\hp\Documents\KULIAH SEMESTER 2\Logika Informatika coding\tugas pertm 1>
 
+Nama: Vivit Nurul Hidayah
+Kelas: TI.24.A1
+NIM: 312410110
+Mata Kuliah: Logika Informatika
+========================================
 Masukkan berat paket (kg): 5 
 Masukkan jarak pengiriman (km): 10
 Masukkan jenis pengiriman (biasa/express): biasa
